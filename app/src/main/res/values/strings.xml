@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NYC Subway Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="north">Uptown</string>
+    <string name="south">Downtown</string>
+    <string name="stations1">Stations</string>
+    <string name="lines">Home</string>
+    <string name="goStatus">Back</string>
+</resources>

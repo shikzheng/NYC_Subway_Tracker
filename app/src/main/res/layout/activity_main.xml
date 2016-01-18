@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_bluerect"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/zxc"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/transparent"
+            android:text = "Select A Train Line"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:clickable="false"
+            android:textSize="23dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+
+
+
+        <Button
+            android:id="@+id/Line1"
+            android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/line_1"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <Button
+            android:id="@+id/Line2"
+            android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/line_2"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:id="@+id/Line3"
+            android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/line_3"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:id="@+id/Line4"
+            android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/line_4"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:id="@+id/Line5"
+            android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/line_5"
+            android:gravity="center"
+
+            />
+
+        <Button
+        android:id="@+id/Line6"
+        android:background="@drawable/transparent"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/line_6"
+        android:gravity="center"
+        />
+
+        <Button
+            android:id="@+id/status"
+            android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text = "Check Service Status"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/map"
+            android:background="@drawable/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text = "MTA Subway Map"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout >

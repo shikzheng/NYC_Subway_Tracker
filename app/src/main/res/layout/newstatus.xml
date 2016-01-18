@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_bluerect"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/status1"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/status2"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/status3"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/status4"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/status5"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/status6"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/status7"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/status8"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/status9"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/status10"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAllCaps="false"  />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

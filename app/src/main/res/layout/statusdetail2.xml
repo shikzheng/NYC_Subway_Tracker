@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_bluerect"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/statusdetail2"
+        android:background="@drawable/btn_bluerect"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:typeface="serif"
+        android:clickable="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textAllCaps="false"/>
+
+</ScrollView>
+
+</LinearLayout>

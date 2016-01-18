@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_bluerect"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/line6s1"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Pelham Bay Park"
+                />
+
+            <Button
+                android:id="@+id/line6s2"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Buhre Avenue"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/line6s3"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Middletown Road"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/line6s4"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:text="Westchester Square-East Tremont Avenue"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/line6s5"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Zerega Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s6"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Castle Hill Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s7"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Parkchester"
+                />
+
+            <Button
+                android:id="@+id/line6s8"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:text="Saint Lawrence Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s9"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Morrison-Sound View Avenues"
+                />
+
+            <Button
+                android:id="@+id/line6s10"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:textAllCaps="false"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Elder Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s11"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Whitlock Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s12"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Hunts Point Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s13"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Longwood Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s14"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="East 149 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s15"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:text="East 143 Street-Saint Mary's Street"
+                />
+
+            <Button
+                android:id="@+id/line6s16"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Cypress Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s17"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Brook Avenue"
+                />
+
+            <Button
+                android:id="@+id/line6s18"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="3 Avenue-138 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s19"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="125 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s20"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="116 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s21"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="110 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s22"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="103 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s23"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:text="96 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s24"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="86 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s25"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="77 Street"
+                />
+
+            <Button
+                android:id="@+id/line6s26"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="68 Street-Hunter College"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/line6s27"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="59 Street"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/line6s28"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="51 Street"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/line6s29"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Grand Central-42 Street"
+                android:textAllCaps="false"  />
+
+            <Button
+                android:id="@+id/line6s30"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="33 Street"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/line6s31"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="28 Street"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/line6s32"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="23 Street"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/line6s33"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="14 Street-Union Square"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/line6s34"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Astor Place"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/line6s35"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:text="Broadway-Lafayette St/Bleecker St"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/line6s36"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Spring Street"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/line6s37"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Canal Street"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/line6s38"
+                android:background="@drawable/btn_blue"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Brooklyn Bridge-City Hall"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

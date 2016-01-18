@@ -1,0 +1,4492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.whiterabbit.simplemtaapp" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "Line1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.line1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name= "L1S1"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L1S1" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name= "L1S2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S2S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S2S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S3N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S3N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S3S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S3S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S4N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S4N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S4S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S4S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S5N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S5N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S5S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S5S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S6N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S6N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S6S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S6S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name= "L1S7N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L1S7N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name= "L1S7S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S7S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S8N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S8N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S8S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S8S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S9N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S9N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S9S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S9S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S10N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S10N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S10S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S10S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S11N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S11N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S11S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S11S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S12N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S12N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S12S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S12S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S13N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S13N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S13S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S13S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S14N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S14N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S14S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S14S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S15N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S15N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S15S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S15S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S16N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S16N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S16S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S16S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S17N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S17N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S17S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S17S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S18N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S18N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S18S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S18S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S19N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S19N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S19S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S19S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S20N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S20N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S20S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S20S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S21N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S21N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S21S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S21S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S22N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S22N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S22S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S22S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S23N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S23N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S23S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S23S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S24N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S24N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S24S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S24S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name= "L1S25N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L1S25N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name= "L1S25S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S25S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S26N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S26N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S26S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S26S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name= "L1S27N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L1S27N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name= "L1S27S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S27S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S28N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S28N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S28S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S28S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S29N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S29N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S29S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S29S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S30N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S30N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S30S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S30S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name= "L1S31N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L1S31N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name= "L1S31S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S31S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S32N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S32N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S32S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S32S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S33N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S33N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S33S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S33S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L1S34N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S34N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S34S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S34S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S35N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S35N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S35S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S35S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S36N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S36N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S36S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S36S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L1S37"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L1S37" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+
+
+
+        <activity
+            android:name= "Line2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.line2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name= "L2S2N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L2S2N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name= "L2S2S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S2S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S3N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S3N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S3S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S3S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S4N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S4N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S4S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S4S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S5N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S5N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S5S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S5S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S6N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S6N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S6S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S6S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S7N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S7N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S7S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S7S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S8N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S8N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S8S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S8S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S9N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S9N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S9S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S9S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S10N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S10N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S10S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S10S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S11N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S11N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S11S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S11S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S12N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S12N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S12S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S12S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S13N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S13N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S13S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S13S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S14N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S14N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S14S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S14S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S15N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S15N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L2S15S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S15S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S16N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S16N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S16S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S16S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S17N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S17N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S17S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S17S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S18N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S18N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S18S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S18S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S19N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S19N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S19S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S19S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S20N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S20N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S20S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S20S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S21N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S21N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S21S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S21S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S22N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S22N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S22S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S22S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name= "L2S23N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L2S23N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name= "L2S23S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S23S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S24N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S24N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S24S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S24S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S25N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S25N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S25S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S25S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S26N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S26N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S26S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S26S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S27N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S27N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S27S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S27S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S28N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S28N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S28S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S28S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S29N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S29N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S29S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S29S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S30N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S30N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S30S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S30S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S31N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S31N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S31S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S31S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S32N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S32N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S32S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S32S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S33N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S33N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S33S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S33S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S34N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S34N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S34S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S34S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S35N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S35N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S35S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S35S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name= "L2S36N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L2S36N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name= "L2S36S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S36S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S37N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S37N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S37S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S37S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S38N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S38N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S38S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S38S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S39N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S39N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S39S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S39S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S40N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S40N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S40S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S40S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S41N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S41N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S41S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S41S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S42N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S42N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S42S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S42S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S43N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S43N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S43S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S43S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S44N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S44N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S44S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S44S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S45N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S45N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S45S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S45S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S46N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S46N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S46S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S46S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S47N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S47N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S47S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S47S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S48N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S48N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S48S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S48S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S49N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S49N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S49S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S49S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S50N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S50N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S50S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S50S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S51N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S51N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S51S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S51S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S52N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S52N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S52S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S52S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S53N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S53N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S53S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S53S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S54N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S54N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S54S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S54S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S55N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S55N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S55S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S55S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S56N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S56N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S56S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S56S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S57N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S57N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S57S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S57S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S58N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S58N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S58S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S58S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S59N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S59N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S59S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S59S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S60N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S60N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S60S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S60S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L2S61"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L2S61" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "Line3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.line3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S2N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S2N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S2S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S2S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S3N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S3N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S3S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S3S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S4N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S4N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S4S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S4S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S5N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S5N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S5S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S5S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S6N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S6N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S6S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S6S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S7N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S7N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S7S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S7S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S8N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S8N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S8S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S8S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S9N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S9N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S9S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S9S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name= "L3S10N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L3S10N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name= "L3S10S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S10S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S11N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S11N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S11S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S11S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S12N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S12N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S12S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S12S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S13N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S13N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S13S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S13S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S14N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S14N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S14S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S14S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S15N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S15N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S15S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S15S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S16N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S16N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S16S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S16S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S17N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S17N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S17S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S17S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S18N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S18N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S18S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S18S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S19N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S19N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S19S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S19S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S20N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S20N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S20S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S20S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S21N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S21N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S21S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S21S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S22N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S22N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S22S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S22S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S23N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S23N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S23S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S23S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S24N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S24N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S24S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S24S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S25N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S25N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S25S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S25S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S26N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S26N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S26S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S26S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S27N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S27N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S27S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S27S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S28N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S28N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S28S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S28S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S29N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S29N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S29S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S29S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S30N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S30N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S30S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S30S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S31N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S31N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S31S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S31S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S32N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S32N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S32S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S32S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S33N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S33N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S33S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S33S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L3S34"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L3S34" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+
+        <activity
+            android:name= "Line4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.line4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S2N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S2N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S2S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S2S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S3N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S3N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S3S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S3S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S4N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S4N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S4S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S4S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S5N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S5N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S5S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S5S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S6N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S6N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S6S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S6S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S7N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S7N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S7S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S7S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S8N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S8N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S8S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S8S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S9N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S9N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S9S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S9S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S10N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S10N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S10S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S10S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S11N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S11N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S11S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S11S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S12N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S12N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S12S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S12S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S13N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S13N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S13S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S13S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S14N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S14N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S14S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S14S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S15N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S15N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S15S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S15S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S16N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S16N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S16S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S16S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S17N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S17N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S17S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S17S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S18N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S18N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S18S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S18S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S19N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S19N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S19S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S19S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S20N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S20N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S20S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S20S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S21N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S21N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S21S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S21S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S22N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S22N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S22S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S22S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S23N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S23N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S23S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S23S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S24N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S24N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S24S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S24S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S25N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S25N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S25S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S25S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name= "L4S26N"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.android.nycsubway.L4S26N" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name= "L4S26S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S26S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S27N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S27N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S27S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S27S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S28N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S28N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S28S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S28S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S29N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S29N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S29S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S29S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S30N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S30N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S30S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S30S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S31N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S31N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S31S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S31S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S32N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S32N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S32S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S32S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S33N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S33N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S33S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S33S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S34N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S34N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S34S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S34S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S35N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S35N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S35S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S35S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S36N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S36N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S36S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S36S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S37N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S37N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S37S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S37S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S38N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S38N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S38S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S38S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S39N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S39N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S39S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S39S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S40N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S40N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S40S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S40S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S41N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S41N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S41S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S41S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S42N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S42N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S42S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S42S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S43N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S43N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S43S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S43S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S44N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S44N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S44S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S44S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S45N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S45N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S45S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S45S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S46N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S46N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S46S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S46S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S47N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S47N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S47S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S47S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S48N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S48N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S48S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S48S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S49N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S49N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S49S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S49S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S50N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S50N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S50S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S50S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S51N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S51N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S51S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S51S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S52N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S52N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S52S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S52S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S53N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S53N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S53S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S53S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L4S54"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L4S54" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+
+
+
+
+
+
+        <activity
+            android:name= "Line5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.line5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S2N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S2N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S2S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S2S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S3N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S3N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S3S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S3S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S4N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S4N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S4S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S4S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S5N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S5N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S5S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S5S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S6N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S6N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S6S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S6S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S7N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S7N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S7S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S7S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S8N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S8N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S8S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S8S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S9N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S9N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S9S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S9S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S10N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S10N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S10S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S10S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S11N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S11N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S11S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S11S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S12N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S12N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S12S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S12S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S13N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S13N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S13S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S13S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S14N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S14N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S14S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S14S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S15N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S15N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S15S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S15S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S16N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S16N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S16S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S16S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S17N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S17N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S17S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S17S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S18N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S18N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S18S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S18S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S19N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S19N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S19S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S19S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S20N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S20N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S20S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S20S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S21N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S21N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S21S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S21S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S22N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S22N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S22S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S22S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S23N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S23N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S23S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S23S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S24N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S24N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S24S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S24S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S25N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S25N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S25S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S25S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S26N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S26N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S26S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S26S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S27N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S27N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S27S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S27S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S28N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S28N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S28S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S28S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S29N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S29N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S29S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S29S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S30N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S30N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S30S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S30S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S31N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S31N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S31S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S31S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S32N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S32N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S32S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S32S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S33N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S33N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S33S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S33S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S34N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S34N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S34S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S34S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S35N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S35N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S35S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S35S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S36N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S36N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S36S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S36S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S37N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S37N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S37S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S37S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S38N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S38N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S38S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S38S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S39N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S39N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S39S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S39S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S40N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S40N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S40S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S40S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S41N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S41N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S41S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S41S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S42N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S42N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S42S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S42S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S43N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S43N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S43S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S43S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S44N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S44N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S44S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S44S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L5S45"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L5S45" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "Line6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.line6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name= "L6S1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S2N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S2N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S2S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S2S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S3N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S3N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S3S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S3S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S4N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S4N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S4S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S4S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S5N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S5N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S5S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S5S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S6N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S6N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S6S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S6S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S7N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S7N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S7S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S7S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S8N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S8N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S8S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S8S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S9N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S9N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S9S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S9S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S10N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S10N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S10S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S10S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S11N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S11N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S11S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S11S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S12N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S12N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S12S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S12S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S13N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S13N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S13S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S13S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S14N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S14N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S14S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S14S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S15N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S15N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S15S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S15S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S16N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S16N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S16S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S16S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S17N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S17N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S17S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S17S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S18N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S18N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S18S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S18S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S19N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S19N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S19S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S19S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S20N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S20N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S20S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S20S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S21N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S21N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S21S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S21S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S22N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S22N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S22S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S22S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S23N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S23N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S23S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S23S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S24N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S24N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S24S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S24S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S25N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S25N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S25S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S25S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S26N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S26N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S26S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S26S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S27N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S27N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S27S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S27S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S28N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S28N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S28S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S28S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S29N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S29N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S29S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S29S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S30N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S30N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S30S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S30S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S31N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S31N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S31S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S31S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S32N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S32N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S32S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S32S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S33N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S33N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S33S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S33S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S34N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S34N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S34S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S34S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S35N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S35N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S35S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S35S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S36N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S36N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S36S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S36S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S37N"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S37N" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S37S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S37S" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "L6S38"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.L6S38" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "Subwaymap"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.Subwaymap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "Status"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.Status" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name= "status1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status7"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status8"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status9"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status9" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name= "status10"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.android.nycsubway.status10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
